@@ -12,5 +12,5 @@ npm install
 npm run dev
 
 
-# URL para a ETAPA 2
-https://listaendereco.firebaseapp.com
+# URL para a ETAPA 3
+https://zipcodelist.firebaseapp.com/
