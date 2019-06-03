@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# clone project
+git clone https://github.com/grilomatheus/zipcodelist.git
+
 # install dependencies
 npm install
 
