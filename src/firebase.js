@@ -1,12 +1,12 @@
 import {initializeApp} from '../node_modules/firebase'
 
 const app = initializeApp({
-  apiKey: 'AIzaSyCCetGqy5m9x_72TCkESP6tYrm7VqsYgEI',
-  authDomain: 'listaendereco.firebaseapp.com',
-  databaseURL: 'https://listaendereco.firebaseio.com',
-  projectId: 'listaendereco',
-  storageBucket: 'listaendereco.appspot.com',
-  messagingSenderId: '991683135856'
+  apiKey: 'AIzaSyAaRvRZeiTS1_Vcb661FQno4IBj2BoxOqQ',
+  authDomain: 'zipcodelist.firebaseapp.com',
+  databaseURL: 'https://zipcodelist.firebaseio.com',
+  projectId: 'zipcodelist',
+  storageBucket: 'zipcodelist.appspot.com',
+  messagingSenderId: '396345707336'
 })
 
 export const fireDB = app.database()

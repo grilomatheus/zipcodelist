@@ -1,6 +1,5 @@
 <style scoped lang="scss">
   .main-container{
-    background-color: #a2d3d7;
     position: relative;
     .menu{
       height: 40px;
@@ -51,6 +50,7 @@
     .panel-add{
       color: white;
       margin-top: 30px;
+      paddin-bottom: 20px;
       @media (min-width: 768px){
         margin-top: 60px;
         width: 40%;
@@ -76,6 +76,19 @@
         top: 0;
         right: 0;
         z-index: 1;
+      }
+    }
+    .panel-details-bg{
+      display: none;
+      @media (min-width: 768px) {
+        display: block;
+        background-color: #a2d3d7;
+        position: absolute;
+        width: 40%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: -1;
       }
     }
   }
@@ -128,6 +141,7 @@
       <edit-address></edit-address>
     </div>
     <div class="map-details-bg"></div>
+    <div class="panel-details-bg"></div>
   </div>
 </template>
 

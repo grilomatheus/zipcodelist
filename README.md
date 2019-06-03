@@ -1,6 +1,6 @@
-# listaendereco
+# zipcodelist
 
-> Projeto Lista de Endereços
+> Projeto ZipCodeList
 
 ## Build Setup
 
