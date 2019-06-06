@@ -37,7 +37,7 @@
       top: 0;
       z-index: -1;
       height: 100vh;
-      display: block;
+      display: none;
       opacity: 0.2;
       background-size: contain;
       background-repeat: no-repeat;
@@ -47,6 +47,7 @@
       width: 100%;
 
       @media (min-width: 768px){
+        display: block;
         opacity: initial;
         position: initial;
       }
