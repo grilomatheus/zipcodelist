@@ -2,6 +2,7 @@
   .main-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 100vh;
     @media (min-width: 768px){
       width: 100%;

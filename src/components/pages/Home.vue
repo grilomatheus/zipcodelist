@@ -5,6 +5,7 @@
       height: 40px;
       .title{
         color: #fff;
+        background-color: #a2d3d7;
         margin: 0;
         font-family: 'Billionthine', sans-serif;
         padding-top: 20px;
@@ -48,8 +49,12 @@
       }
     }
     .panel-add{
+      display: flex;
+      justify-content: center;
       color: white;
-      margin-top: 30px;
+      /*margin-top: 30px;*/
+      min-height: 78px;
+      background-color: #a2d3d7;
       paddin-bottom: 20px;
       @media (min-width: 768px){
         margin-top: 60px;
